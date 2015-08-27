@@ -14,6 +14,7 @@
 		FB5785D11B89800B005F9516 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5785D01B89800B005F9516 /* Images.xcassets */; };
 		FB5785D41B89800B005F9516 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB5785D21B89800B005F9516 /* LaunchScreen.xib */; };
 		FB5785E01B89800B005F9516 /* AlcolatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5785DF1B89800B005F9516 /* AlcolatorTests.m */; };
+		FBF97B0C1B8D764A00D0B3CB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF97B0B1B8D764A00D0B3CB /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		FB5785D91B89800B005F9516 /* AlcolatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlcolatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB5785DE1B89800B005F9516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB5785DF1B89800B005F9516 /* AlcolatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlcolatorTests.m; sourceTree = "<group>"; };
+		FBF97B0A1B8D764A00D0B3CB /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		FBF97B0B1B8D764A00D0B3CB /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 				FB5785C71B89800B005F9516 /* AppDelegate.h */,
 				FB5785C81B89800B005F9516 /* AppDelegate.m */,
 				FB5785CA1B89800B005F9516 /* ViewController.h */,
+				FBF97B0A1B8D764A00D0B3CB /* MainViewController.h */,
+				FBF97B0B1B8D764A00D0B3CB /* MainViewController.m */,
 				FB5785CB1B89800B005F9516 /* ViewController.m */,
 				FB5785CD1B89800B005F9516 /* Main.storyboard */,
 				FB5785D01B89800B005F9516 /* Images.xcassets */,
@@ -222,6 +227,7 @@
 				FB5785CC1B89800B005F9516 /* ViewController.m in Sources */,
 				FB5785C91B89800B005F9516 /* AppDelegate.m in Sources */,
 				FB5785C61B89800B005F9516 /* main.m in Sources */,
+				FBF97B0C1B8D764A00D0B3CB /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +422,7 @@
 				FB5785E51B89800B005F9516 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB5785E61B89800B005F9516 /* Build configuration list for PBXNativeTarget "AlcolatorTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				FB5785E81B89800B005F9516 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
