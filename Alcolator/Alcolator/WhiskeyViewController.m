@@ -13,7 +13,13 @@
 - (IBAction)sliderValueDidChange:(UISlider *)sender {
     NSLog(@"Slider value changed to %f",sender.value);
     [self.beerPercentTextField resignFirstResponder];
-    self.navigationItem.title = [NSString stringWithFormat:@"Whiskey(%f shots)",self.beerCountSlider.value];
+    
+    float floatValue = self.beerCountSlider.value;
+    NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
+    [formatter setMaximumFractionDigits:0];
+    [formatter setRoundingMode: NSNumberFormatterRoundDown];
+    NSString *numberString = [formatter stringFromNumber:[NSNumber numberWithFloat:floatValue]];
+    self.navigationItem.title = [NSString stringWithFormat:@"Whiskey(%@ shots)",numberString];
 }
 
 - (void)buttonPressed:(UIButton *)sender;

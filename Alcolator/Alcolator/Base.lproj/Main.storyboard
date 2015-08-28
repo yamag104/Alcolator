@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8g2-ve-16C">
-                                <rect key="frame" x="248" y="40" width="105" height="73"/>
+                                <rect key="frame" x="248" y="80" width="105" height="73"/>
                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="50"/>
                                 <state key="normal" title="Wine">
                                     <color key="titleColor" red="0.44705882349999998" green="0.1843137255" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
@@ -29,7 +29,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fUd-KT-H8n">
-                                <rect key="frame" x="221" y="133" width="159" height="76"/>
+                                <rect key="frame" x="221" y="173" width="159" height="76"/>
                                 <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="50"/>
                                 <state key="normal" title="Whiskey">
                                     <color key="titleColor" red="0.70196078431372544" green="0.40784313725490196" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -45,7 +45,7 @@
                             <constraint firstAttribute="centerX" secondItem="8g2-ve-16C" secondAttribute="centerX" id="0DX-Jr-pAq"/>
                             <constraint firstAttribute="centerX" secondItem="fUd-KT-H8n" secondAttribute="centerX" constant="-5" id="SDe-an-AO9"/>
                             <constraint firstItem="fUd-KT-H8n" firstAttribute="top" secondItem="8g2-ve-16C" secondAttribute="bottom" constant="20" id="gG7-SW-pBu"/>
-                            <constraint firstItem="8g2-ve-16C" firstAttribute="top" secondItem="pOz-RO-Wij" secondAttribute="topMargin" constant="40" id="hUd-H9-AZP"/>
+                            <constraint firstItem="8g2-ve-16C" firstAttribute="top" secondItem="pOz-RO-Wij" secondAttribute="topMargin" constant="80" id="hUd-H9-AZP"/>
                             <constraint firstItem="8g2-ve-16C" firstAttribute="centerX" secondItem="fUd-KT-H8n" secondAttribute="centerX" id="zgd-Qs-Hxa"/>
                         </constraints>
                         <variation key="default">
