@@ -1,0 +1,33 @@
+
+/* Class = "UINavigationItem"; title = "Select Alcolator"; ObjectID = "2Y5-KZ-r3e"; */
+"2Y5-KZ-r3e.title" = "Select Alcolator";
+
+/* Class = "UIButton"; normalTitle = "Calculate"; ObjectID = "2Zj-kS-6Vj"; */
+"2Zj-kS-6Vj.normalTitle" = "Calculate";
+
+/* Class = "UIButton"; normalTitle = "Wine"; ObjectID = "8g2-ve-16C"; */
+"8g2-ve-16C.normalTitle" = "Wine";
+
+/* Class = "UINavigationItem"; title = "Wine"; ObjectID = "BtK-hT-VrW"; */
+"BtK-hT-VrW.title" = "Wine";
+
+/* Class = "UITextField"; placeholder = "% Alcohol Content per Beer"; ObjectID = "UJd-vU-Fve"; */
+"UJd-vU-Fve.placeholder" = "% Alcohol Content per Beer";
+
+/* Class = "UINavigationItem"; title = "Whiskey"; ObjectID = "VUY-Lq-E0b"; */
+"VUY-Lq-E0b.title" = "Whiskey";
+
+/* Class = "UIButton"; normalTitle = "Calculate"; ObjectID = "YKB-yi-9aN"; */
+"YKB-yi-9aN.normalTitle" = "Calculate";
+
+/* Class = "UILabel"; text = "???"; ObjectID = "fJK-AQ-UdE"; */
+"fJK-AQ-UdE.text" = "???";
+
+/* Class = "UIButton"; normalTitle = "Whiskey"; ObjectID = "fUd-KT-H8n"; */
+"fUd-KT-H8n.normalTitle" = "Whiskey";
+
+/* Class = "UITextField"; placeholder = "% Alcohol Content per Beer"; ObjectID = "mUw-xa-DhI"; */
+"mUw-xa-DhI.placeholder" = "% Alcohol Content per Beer";
+
+/* Class = "UILabel"; text = "???"; ObjectID = "sMm-zZ-k3A"; */
+"sMm-zZ-k3A.text" = "???";
