@@ -11,8 +11,8 @@
 		FB61201B1B8FEE8E00BEAB86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5785CB1B89800B005F9516 /* ViewController.m */; };
 		FB61201D1B8FEF1D00BEAB86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5785C51B89800B005F9516 /* main.m */; };
 		FB61201E1B8FEF2B00BEAB86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5785C81B89800B005F9516 /* AppDelegate.m */; };
-		FB8AC5A41B90109C00388AEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5785CD1B89800B005F9516 /* Main.storyboard */; };
 		FB8AC5A51B91458200388AEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5785D01B89800B005F9516 /* Images.xcassets */; };
+		FBF17B351B9155C10015AB63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5785CD1B89800B005F9516 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -202,8 +202,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB8AC5A41B90109C00388AEE /* Main.storyboard in Resources */,
 				FB8AC5A51B91458200388AEE /* Images.xcassets in Resources */,
+				FBF17B351B9155C10015AB63 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
