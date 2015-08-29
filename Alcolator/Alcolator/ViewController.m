@@ -34,6 +34,7 @@
 - (IBAction)sliderValueDidChange:(UISlider *)sender {
     NSLog(@"Slider value changed to %f",sender.value);
     [self.beerPercentTextField resignFirstResponder];
+    [self.tabBarItem setBadgeValue:[NSString stringWithFormat:@"%d",(int) sender.value]];
     
     float floatValue = _beerCountSlider.value;
     NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
