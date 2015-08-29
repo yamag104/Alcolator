@@ -10,6 +10,15 @@
 
 @implementation WhiskeyViewController
 
+- (IBAction)sliderValueDidChange:(UISlider *)sender {
+    NSLog(@"Slider value changed to %f",sender.value);
+    [self.beerPercentTextField resignFirstResponder];
+    
+    float floatValue = self.beerCountSlider.value;
+    int numberOfBeers = floatValue;
+    self.navigationItem.title = [NSString stringWithFormat:@"Whiskey(%d shots)",numberOfBeers];
+}
+
 - (void)buttonPressed:(UIButton *)sender;
 {
     [self.beerPercentTextField resignFirstResponder];
@@ -42,6 +51,10 @@
     } else {
         whiskeyText = NSLocalizedString(@"shots", @"plural of shot");
     }
+    
+    int resultNum = numberOfWhiskeyGlassesForEquivalentAlcoholAmount;
+    [self.tabBarItem setBadgeValue:[NSString stringWithFormat:@"%d",resultNum]];
+    
     NSString *resultText = [NSString stringWithFormat:NSLocalizedString(@"%d %@ (with %.2f%% alcohol) contains as much alcohol as %.1f %@ of whiskey.", nil), numberOfBeers, beerText, [self.beerPercentTextField.text floatValue], numberOfWhiskeyGlassesForEquivalentAlcoholAmount, whiskeyText];
     self.resultLabel.text = resultText;
 }
