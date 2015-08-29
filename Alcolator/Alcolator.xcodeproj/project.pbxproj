@@ -11,6 +11,8 @@
 		FB61201B1B8FEE8E00BEAB86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5785CB1B89800B005F9516 /* ViewController.m */; };
 		FB61201D1B8FEF1D00BEAB86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5785C51B89800B005F9516 /* main.m */; };
 		FB61201E1B8FEF2B00BEAB86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5785C81B89800B005F9516 /* AppDelegate.m */; };
+		FB8AC59E1B900BCF00388AEE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8AC59D1B900BCF00388AEE /* MainViewController.m */; };
+		FB8AC5A41B90109C00388AEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5785CD1B89800B005F9516 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +33,6 @@
 		FB5785C81B89800B005F9516 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FB5785CA1B89800B005F9516 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FB5785CB1B89800B005F9516 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FB5785CE1B89800B005F9516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB5785D01B89800B005F9516 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FB5785D31B89800B005F9516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FB5785D91B89800B005F9516 /* AlcolatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlcolatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,6 +40,9 @@
 		FB5785DF1B89800B005F9516 /* AlcolatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlcolatorTests.m; sourceTree = "<group>"; };
 		FB5785E91B898A3C005F9516 /* WhiskeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiskeyViewController.h; sourceTree = "<group>"; };
 		FB5785EA1B898A3C005F9516 /* WhiskeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiskeyViewController.m; sourceTree = "<group>"; };
+		FB8AC59C1B900BCF00388AEE /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		FB8AC59D1B900BCF00388AEE /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		FB8AC5A21B900FC400388AEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 			children = (
 				FB5785C71B89800B005F9516 /* AppDelegate.h */,
 				FB5785C81B89800B005F9516 /* AppDelegate.m */,
+				FB8AC59C1B900BCF00388AEE /* MainViewController.h */,
+				FB8AC59D1B900BCF00388AEE /* MainViewController.m */,
 				FB5785CA1B89800B005F9516 /* ViewController.h */,
 				FB5785CB1B89800B005F9516 /* ViewController.m */,
 				FB5785E91B898A3C005F9516 /* WhiskeyViewController.h */,
@@ -200,6 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB8AC5A41B90109C00388AEE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +227,7 @@
 				FB61201E1B8FEF2B00BEAB86 /* AppDelegate.m in Sources */,
 				FB61201D1B8FEF1D00BEAB86 /* main.m in Sources */,
 				FB61201B1B8FEE8E00BEAB86 /* ViewController.m in Sources */,
+				FB8AC59E1B900BCF00388AEE /* MainViewController.m in Sources */,
 				FB5785EB1B898A3C005F9516 /* WhiskeyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,7 +253,7 @@
 		FB5785CD1B89800B005F9516 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FB5785CE1B89800B005F9516 /* Base */,
+				FB8AC5A21B900FC400388AEE /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
